@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <link rel="stylesheet" href="app.css">
+
+    <!-- cdn for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&family=Geist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- cdn for remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- gsap cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+
+    <!-- devicon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <link rel="shortcut icon" href="https://i.pinimg.com/1200x/01/4e/7c/014e7c41682d5e1f96bfd171b52988e9.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <nav>
+        <a href="#hero">
+            <h1>portfolio</h1>
+        </a>
+
+        <div class="tags">
+            <a href="#hero">home</a>
+            <a href="#aboutme">about</a>
+            <a href="#project">project</a>
+            <a href="#skills">skills</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero reveal" id="hero">
+            <div class="grid"></div>
+            <div class="circle"></div>
+            <div class="border"></div>
+
+            <!-- hero content -->
+
+            <div class="hero-content-box">
+                <h2>hello, i'm lokendra suthar</h2>
+
+                <h4>Frontend Developer crafting
+                    immersive web experiences.
+                </h4>
+
+                <p>
+                    I build responsive, accessible, and interactive web applications using modern frontend technologies.
+                    I'm passionate about creating experiences that are both beautiful and performant.
+                </p>
+
+                <div class="hero-btns-box">
+                    <button id="view-projects"
+                        onclick="document.getElementById('project').scrollIntoView({ behavior: 'smooth' })">view
+                        projects <i class="ri-arrow-down-line"></i></button>
+                    <button id="download-resume">download-resume</button>
+                </div>
+
+                <div class="hero-media">
+                    <a href="https://github.com/anandsuthar12" target="_blank"><i
+                            class="ri-github-fill github hero-icon"></i></a>
+
+                    <a href="https://www.linkedin.com/in/lokendra-suthar-1b65a7327/" target="_blank"><i
+                            class="ri-linkedin-fill linkdin hero-icon"></i></a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="aboutme reveal" id="aboutme">
+            <div class="grid"></div>
+
+            <h2>about me</h2>
+
+            <h4>The developer behind the code.</h4>
+
+            <div class="lower-about">
+                <div class="lower-about-left">
+                    <p>
+                        <span class="prop">Who I Am</span>
+
+                        <br>
+                        I'm <span>Lokendra Suthar</span>, a <span>frontend developer</span> passionate about
+                        transforming ideas into modern,
+                        responsive, and interactive web experiences. I enjoy solving real-world problems through clean
+                        code and thoughtful design, with a strong focus on performance, accessibility, and user
+                        experience.
+                        <br><br>
+
+                        <span class="prop">Education</span>
+
+                        <br>
+
+                        I'm currently pursuing my B.Tech while actively applying my knowledge through
+                        personal projects and real-world development experiences. Alongside academics, I believe in
+                        learning by building, experimenting, and continuously improving with every project.
+
+                        <br><br>
+
+                        <span class="prop">Expertise</span>
+
+                        <br>
+
+                        My core expertise lies in <span>HTML, CSS, JavaScript and React</span> where I focus on building
+                        responsive
+                        layouts, reusable components, and smooth user interactions. I'm continuously expanding my skill
+                        set by <span>exploring GSAP, and Three.js</span> to create more immersive web experiences.
+                    </p>
+                </div>
+                <div class="lower-about-right">
+                    <div class="about-card-wrapper">
+                        <div class="aboutme-card">
+                            <p>
+                                {
+                                "<span class="key">name</span>": "<span class="value">Lokendra Suthar</span>",
+                                "<span class="key">role</span>": "<span class="value">
+                                    Frontend Developer
+                                </span>",
+                                "<span class="key">education</span>": "<span class="value">B.Tech Student</span>",
+                                "<span class="key">experience</span>": "<span class="value">Frontend Intern</span>",
+                                "<span class="key">location</span>": "<span class="value">India</span>",
+                                "<span class="key">focus</span>": [
+                                "<span class="value">Clean UI</span>",
+                                "<span class="value">Responsive Design</span>",
+                                "<span class="value">Performance</span>"
+                                ],
+                                "<span class="key">currentlyLearning</span>": [
+                                "<span class="value">GSAP</span>",
+                                "<span class="value">Three.js</span>"
+                                ],
+                                "<span class="key">status</span>": "<span class="value">Open to Opportunities</span>"
+                                }
+
+                                <span class="blink">|</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="ticker-wrap reveal">
+            <div class="ticker-row">
+                <h2>HTML</h2>
+                <h2>CSS</h2>
+                <h2>JS</h2>
+                <h2>GIT</h2>
+                <h2>GIT HUB</h2>
+                <h2>SCSS</h2>
+                <h2>REACT</h2>
+                <h2>TAILWIND</h2>
+                <h2>GSAP</h2>
+
+                <h2>HTML</h2>
+                <h2>CSS</h2>
+                <h2>JS</h2>
+                <h2>GIT</h2>
+                <h2>GIT HUB</h2>
+                <h2>SCSS</h2>
+                <h2>REACT</h2>
+                <h2>TAILWIND</h2>
+                <h2>GSAP</h2>
+            </div>
+        </section>
+
+        <section id="project" class="project reveal">
+            <div class="grid"></div>
+
+            <h2>Projects</h2>
+
+            <div class="project-box">
+
+            </div>
+        </section>
+
+        <section class="skills reveal" id="skills">
+            <div class="grid"></div>
+
+            <h2>skills</h2>
+
+            <div class="floating-area">
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+                    class="skill-card" />
+
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+                    class="skill-card" />
+
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                    class="skill-card" />
+
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                    class="skill-card" />
+
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                    class="skill-card" />
+
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                    class="skill-card" />
+
+                <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubcodespaces/githubcodespaces-original.svg" class="skill-card"/>
+
+
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                    class="skill-card" />
+
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+                    class="skill-card" />
+
+
+
+
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"
+                    class="skill-card" />
+
+
+
+
+
+            </div>
+        </section>
+
+        <footer>
+            <h5>© 2026 Lokendra Suthar</h5>
+
+            <h5>Designed & Developed by Lokendra Suthar</h5>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
