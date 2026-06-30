@@ -175,7 +175,7 @@ function skills_card() {
 
 skills_card();
 
-function matrix_effect(target, slap = 50) {
+function matrix_effect(target, slap = 60) {
   let charactar = `abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`;
   let counter = 0;
   let text = target.innerHTML;
