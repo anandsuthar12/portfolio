@@ -75,6 +75,8 @@ body {
   position: relative;
 
   background-color: rgb(1, 1, 1);
+
+  max-width:1600px;
 }
 
 nav {
